@@ -1,0 +1,10 @@
+com/mybatis/service/BookService.class
+com/mybatis/config/DataSourceAConfig.class
+com/mybatis/config/DataSourceBConfig.class
+com/mybatis/MyBatisApplication.class
+com/mybatis/bean/Student.class
+com/mybatis/dao/db2/StudentDao.class
+com/mybatis/controller/MultiDataSourceController.class
+com/mybatis/service/StudentService.class
+com/mybatis/dao/db1/BookDao.class
+com/mybatis/bean/Book.class
