@@ -1,22 +1,19 @@
 package com.myredis.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
-public class TestService {
+import java.util.concurrent.TimeUnit;
 
-  @Autowired
-  private RedisTemplate redisTemplate;
+@Component
+public class TestService extends Thread{
 
-  public String getValue(){
+//  @Autowired
+//  private RedisTemplate redisTemplate;
 
-    redisTemplate.opsForValue().set("aaa", "hello world");
-
-    System.out.println(redisTemplate.opsForValue().get("aaa"));
-
-    return "kahkhsf";
+  @Override
+  public void run() {
+//    redisTemplate.opsForList().rightPopAndLeftPush("gy", "hh",10, TimeUnit.SECONDS);
+    System.out.println("afa");
   }
-
 }

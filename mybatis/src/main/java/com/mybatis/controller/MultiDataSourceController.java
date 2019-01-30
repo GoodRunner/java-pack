@@ -35,4 +35,24 @@ public class MultiDataSourceController {
     return map;
   }
 
+  @RequestMapping("/wait")
+  public String waitUpdate() {
+
+    try {
+      studentService.updateStu();
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+
+    return "{\"hello\":\"world\"}";
+  }
+
+  @RequestMapping("/select")
+  public String select() {
+
+    studentService.insertStu();
+
+    return "{\"hello\":\"world\"}";
+  }
+
 }
