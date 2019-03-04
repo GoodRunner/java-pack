@@ -1,37 +1,32 @@
 package com.myredis.controller;
 
+import com.myredis.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.DefaultTypedTuple;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
+//import redis.clients.jedis.JedisPool;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @RestController
 @RequestMapping("/data")
 public class RedisController {
 
   @Autowired
-  private JedisPool jedisPool;
+  private TestService testService;
 
   @RequestMapping("/redis")
-  public String data(){
+  public String data() throws Exception{
 
-    Jedis jedis = jedisPool.getResource();
-    long a = System.currentTimeMillis();
-    try {
-      for (int i = 0; i < 10000; i++) {
-        jedis.lpush("key", "awr" + i);
-        System.out.println(1);
-        String str = jedis.brpoplpush("key", "wf", 3);
-        System.out.println(2);
-        jedis.lrem("wf", 2, str);
-      }
-    }finally {
-      jedis.close();
-    }
-    long b = System.currentTimeMillis();
-    return "{\"hello\":\"world \""+(b-a)+"\"}";
+    String str = testService.getValue("78");
+
+    return str;
   }
 
 }

@@ -1,19 +1,15 @@
 package com.myredis.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
 
-import java.util.concurrent.TimeUnit;
+@Service
+public class TestService {
 
-@Component
-public class TestService extends Thread{
-
-//  @Autowired
-//  private RedisTemplate redisTemplate;
-
-  @Override
-  public void run() {
-//    redisTemplate.opsForList().rightPopAndLeftPush("gy", "hh",10, TimeUnit.SECONDS);
-    System.out.println("afa");
+  @Cacheable(value = "practiseReport", key = "'haha_'+#id")
+  public String getValue(String id){
+    System.out.println("进来了");
+    return "{\"hello\":\"world}";
   }
+
 }

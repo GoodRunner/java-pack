@@ -17,6 +17,9 @@ public class ServiceTests {
 
   @Test
   public void testTime() {
+
+
+
 //
 //    for (int i = 0; i < 1000; i++) {
 //      redisTemplate.opsForList().leftPush("key", "vic" + i);
