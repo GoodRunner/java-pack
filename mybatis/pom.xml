@@ -11,6 +11,10 @@
 
     <artifactId>mybatis</artifactId>
 
+    <dependencies>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

@@ -1,5 +1,6 @@
 package com.mybatis.bean;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -42,4 +43,23 @@ public class Book {
   public void setPublishDate(Date publishDate) {
     this.publishDate = publishDate;
   }
+
+  public static void main(String[] args) {
+
+    Date d = new Date();
+    long a = System.currentTimeMillis();
+    for (int i = 0; i < 100000 ; i++) {
+
+      SimpleDateFormat simpleDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+      simpleDate.format(d);
+
+    }
+
+    long b = System.currentTimeMillis();
+
+    System.out.println( b - a );
+
+  }
+
 }
