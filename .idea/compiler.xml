@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth" />
         <module name="dubbo" />
+        <module name="es" />
         <module name="mq" />
         <module name="mybatis" />
+        <module name="quasar" />
         <module name="redis" />
         <module name="springboot" />
         <module name="websocket" />
@@ -23,9 +25,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth" options="-parameters" />
       <module name="dubbo" options="-parameters" />
+      <module name="es" options="-parameters" />
       <module name="java-pack" options="-parameters" />
       <module name="mq" options="-parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="quasar" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="webservice" options="-parameters" />

@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea813067-3ffa-4313-9517-0c016ab52c39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quasar/src/test/java/com/quasar/service/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webservice_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/dubbo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/mq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/websocket.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mq/target/" />
@@ -14,6 +30,8 @@
     <ignored path="$PROJECT_DIR$/redis/target/" />
     <ignored path="$PROJECT_DIR$/webservice/target/" />
     <ignored path="$PROJECT_DIR$/websocket/target/" />
+    <ignored path="$PROJECT_DIR$/quasar/target/" />
+    <ignored path="$PROJECT_DIR$/es/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +48,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/consumer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq/RabbitMQ.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="23">
+                <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="667">
+                <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq/KAFKA1.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="13" selection-start-column="13" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,9 +144,13 @@
       <find>jedis</find>
       <find>maxIdle</find>
       <find>spring.redis.jedis.pool.maxIdle</find>
+      <find>sha1Hex</find>
+      <find>\</find>
+      <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>2</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -76,40 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth/src/main/resources/templates/client.html" />
-        <option value="$PROJECT_DIR$/mybatis/README.MD" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/web/WebServiceApplication.java" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/web/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/web/service/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webservice/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/web/config/WebServiceConfig.java" />
-        <option value="$PROJECT_DIR$/webservice/pom.xml" />
-        <option value="$PROJECT_DIR$/webservice/README.MD" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/bean/Student.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/config/MybatisConfig.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/db1/BookDao.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/service/BookService.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/MyBatisApplication.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/data/schema.sql" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/controller/MuiltDataSourceController.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/config/DataSourceAConfig.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/config/DataSourceBConfig.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/pic/DataSourceBConfig.java" />
-        <option value="$PROJECT_DIR$/mybatis/MultiDataSource.MD" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/StudentTests.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/AllTests.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/controller/MultiDataSourceController.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/db2/StudentDao.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/mybatis/ABOUTLOCK.MD" />
-        <option value="$PROJECT_DIR$/redis/README.MD" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/bean/User.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/config/Pub.java" />
-        <option value="$PROJECT_DIR$/redis/src/test/java/com/myredis/service/ServiceTests.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/config/Sub.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/config/CacheManage.java" />
         <option value="$PROJECT_DIR$/redis/src/test/java/com/myredis/service/MultiThreadRedisTests.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/service/TestService.java" />
@@ -122,11 +171,45 @@
         <option value="$PROJECT_DIR$/dubbo/src/main/java/com/dubbo/service/MyService.java" />
         <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/LabelTest.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/controller/LabelController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/myredis/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/service/TestHHH.java" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/quasar/pom.xml" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/service/Station.java" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/service/ThreadB.java" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/service/ThreadA.java" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/service/TestA.java" />
+        <option value="$PROJECT_DIR$/quasar/src/test/java/com/quasar/service/MyTest.java" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/QuasarApplication.java" />
+        <option value="$PROJECT_DIR$/quasar/src/main/java/com/quasar/service/Test.java" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/EsApplication.java" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/entity/Article.java" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/service/MainService.java" />
+        <option value="$PROJECT_DIR$/es/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/es/pom.xml" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/config/EsConfig.java" />
+        <option value="$PROJECT_DIR$/es/src/main/java/com/es/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/FirstLetter.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChineseCharToEn.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/Md5.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Abc.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChToEnChar.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java" />
+        <option value="$PROJECT_DIR$/mq/src/main/java/MqApplication.java" />
+        <option value="$PROJECT_DIR$/mq/src/main/java/com/MqApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/MqApplication.java" />
+        <option value="$PROJECT_DIR$/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/src/main/resources/Application.properties" />
+        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/mq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mq/KAFKA1.MD" />
+        <option value="$PROJECT_DIR$/mq/KAFKA.MD" />
       </list>
     </option>
   </component>
@@ -139,13 +222,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="150" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,8 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +259,7 @@
             <path>
               <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,21 +275,28 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557971535836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573091532396" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.1038603" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mq/img" />
+      <recent name="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/service" />
       <recent name="$PROJECT_DIR$/mybatis/src/main/resources/pic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis/target/classes/com/mybatis/util" />
+      <recent name="$PROJECT_DIR$/mybatis/target/classes/com/mybatis/util/META-INF" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,13 +311,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestHHH">
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.bean.Book" />
+  <component name="RunManager" selected="Spring Boot.MqApplication">
+    <configuration name="ApiMac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.util.ApiMac" />
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.bean.*" />
+          <option name="PATTERN" value="com.mybatis.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHHH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.service.TestHHH" />
+    <configuration name="ChToEnChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.util.ChToEnChar" />
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.service.*" />
+          <option name="PATTERN" value="com.mybatis.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,7 +338,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LabelTest.haveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChineseCharToEn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.util.ChineseCharToEn" />
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTests.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -246,8 +360,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mybatis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.service.LabelTest" />
-      <option name="METHOD_NAME" value="haveTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.service.BookServiceTests" />
+      <option name="METHOD_NAME" value="test0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,27 +374,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
+    <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="es" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="PATTERN" value="com.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.es.EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mq.MqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.MyBatisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="QuasarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="quasar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quasar.QuasarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myredis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.myredis.RedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestHHH" />
-        <item itemvalue="Spring Boot.RedisApplication" />
-        <item itemvalue="JUnit.LabelTest.haveTest" />
-        <item itemvalue="Spring Boot.MyBatisApplication" />
-        <item itemvalue="Application.Book" />
+        <item itemvalue="Application.ApiMac" />
+        <item itemvalue="Application.ChToEnChar" />
+        <item itemvalue="Application.ChineseCharToEn" />
+        <item itemvalue="JUnit.BookServiceTests.test0" />
+        <item itemvalue="Spring Boot.EsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -363,26 +492,48 @@
       <workItem from="1556243130976" duration="2096000" />
       <workItem from="1556593235409" duration="629000" />
       <workItem from="1557019547306" duration="495000" />
-      <workItem from="1557970823304" duration="712000" />
+      <workItem from="1557970823304" duration="5941000" />
+      <workItem from="1558158174566" duration="908000" />
+      <workItem from="1558161135782" duration="195000" />
+      <workItem from="1558161710270" duration="284000" />
+      <workItem from="1558583082308" duration="915000" />
+      <workItem from="1558666466841" duration="580000" />
+      <workItem from="1559023559407" duration="53000" />
+      <workItem from="1559109084808" duration="931000" />
+      <workItem from="1559185670400" duration="996000" />
+      <workItem from="1560908242216" duration="8362000" />
+      <workItem from="1562655714706" duration="457000" />
+      <workItem from="1562811954883" duration="830000" />
+      <workItem from="1563158390252" duration="744000" />
+      <workItem from="1563189358291" duration="84000" />
+      <workItem from="1563270147902" duration="1961000" />
+      <workItem from="1563872504172" duration="4066000" />
+      <workItem from="1563877879902" duration="270000" />
+      <workItem from="1563878280267" duration="1821000" />
+      <workItem from="1564053161554" duration="137000" />
+      <workItem from="1564112197429" duration="2500000" />
+      <workItem from="1564129073893" duration="4818000" />
+      <workItem from="1564451994358" duration="2528000" />
+      <workItem from="1564467788490" duration="165000" />
+      <workItem from="1564543177482" duration="554000" />
+      <workItem from="1565319543855" duration="980000" />
+      <workItem from="1565589782466" duration="132000" />
+      <workItem from="1565614035718" duration="4712000" />
+      <workItem from="1565679560787" duration="3887000" />
+      <workItem from="1570500877504" duration="479000" />
+      <workItem from="1570502377742" duration="828000" />
+      <workItem from="1570606055460" duration="491000" />
+      <workItem from="1570670330388" duration="113000" />
+      <workItem from="1572616060859" duration="869000" />
+      <workItem from="1572618916280" duration="643000" />
+      <workItem from="1572657131972" duration="6906000" />
+      <workItem from="1572749440780" duration="1583000" />
+      <workItem from="1572949435338" duration="201000" />
+      <workItem from="1573090029574" duration="1442000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 23m 19s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 25m 20s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 26m 36s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 27m 37s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 28m 36s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 29m 54s.xml">
       <configuration name="LabelTest.haveTest" configurationId="JUnit" />
     </history-entry>
@@ -398,15 +549,68 @@
     <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 35m 27s.xml">
       <configuration name="LabelTest.haveTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyTest_doTest - 2019.05.16 at 15h 49m 56s.xml">
+      <configuration name="MyTest.doTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_doTest - 2019.05.16 at 15h 50m 12s.xml">
+      <configuration name="MyTest.doTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 41m 11s.xml">
+      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 41m 38s.xml">
+      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 42m 04s.xml">
+      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124268000" />
+    <option name="totallyTimeSpent" value="186922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.21014492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.18188407" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" sideWeight="0.5005549" weight="0.1864" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16509926" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4163569" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.04708798" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.523511" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32810867" />
+      <window_info anchor="bottom" id="EvoSuite" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.39016393" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.24275362" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -422,7 +626,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18587361" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11895911" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.38166046" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -434,42 +638,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.39016393" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13770492" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.091937765" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1768034" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.52758133" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3295082" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -490,330 +658,181 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.class">
+    <entry file="file://$PROJECT_DIR$/es/src/main/java/com/es/dao/ArticleDao.java" />
+    <entry file="file://$PROJECT_DIR$/es/src/main/java/com/es/entity/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/config/Pub.java" />
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/config/Sub.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/config/DataSourceAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="-446">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/config/DataSourceBConfig.java">
+    <entry file="file://$PROJECT_DIR$/es/src/main/java/com/es/service/MainService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.4.RELEASE/lettuce-core-5.1.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18320" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.4.RELEASE/lettuce-core-5.1.4.RELEASE.jar!/io/lettuce/core/api/async/RedisStringAsyncCommands.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="82" column="6" lean-forward="true" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/test/java/com/myredis/service/ServiceTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.1.1/elasticsearch-rest-client-7.1.1.jar!/org/elasticsearch/client/Request.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.1.1/elasticsearch-rest-client-7.1.1.jar!/org/elasticsearch/client/RestClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="132" column="17" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.1.1/elasticsearch-rest-client-7.1.1.jar!/org/elasticsearch/client/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/core/DefaultTypedTuple.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/core/ZSetOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/config/CacheManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="84" column="70" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/test/java/com/myredis/service/MultiThreadRedisTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="method#getRedisCacheConfigurationWithTtl#0;class#RedisConfig#0" />
-            <element signature="method#getRedisCacheConfigurationMap#0;class#RedisConfig#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/book/AboutThisBook.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/book/第一章.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/db1/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/bean/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-          <folding>
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2662#2663#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2740#2741#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2843#2844#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#2932#2933#0" expanded="true" />
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dubbo.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/db1/LabelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/es/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dubbo/common/IService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.1.1/elasticsearch-rest-high-level-client-7.1.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="173">
+          <caret line="167" column="46" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="46" />
+          <folding>
+            <element signature="e#9459#9460#0" expanded="true" />
+            <element signature="e#9517#9518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/controller/MultiDataSourceController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/6.4.3/elasticsearch-rest-client-6.4.3.jar!/org/elasticsearch/client/RestClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        <state relative-caret-position="114">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es/src/main/java/com/es/config/EsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/bean/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dubbo/service/MyService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/client/JestClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/action/Action.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/action/GenericResultAbstractAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/indices/template/TemplateAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/6.3.1/jest-common-6.3.1.jar!/io/searchbox/indices/template/GetTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es/src/main/java/com/es/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.class" />
+    <entry file="jar://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.jar!/Md5.class" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Abc.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,143 +844,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/StudentTests.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="151" column="4" lean-forward="true" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="168" column="16" lean-forward="true" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="286" column="13" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="34" />
+        <state relative-caret-position="229">
+          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
           <folding>
-            <element signature="e#7509#7510#0" expanded="true" />
-            <element signature="e#7545#7546#0" expanded="true" />
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1406" column="15" selection-start-line="1406" selection-start-column="15" selection-end-line="1406" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/service/TestHHH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/bean/User.java">
+    <entry file="file://$PROJECT_DIR$/../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/ef01fa5d46b53ec21d76b2e8fe369b9b/Message/MessageTemp/b65d4fbd1f937b6583e07b9a2bc3a5ab/File/DigestUtil.class" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/controller/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="1767">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/javax/script/ScriptEngineManager.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/StudentTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="222" column="13" lean-forward="true" selection-start-line="222" selection-start-column="13" selection-end-line="222" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/target/classes/com/mybatis/util/Md5.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChineseCharToEn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChToEnChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/MD5.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/Assd.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/MyBatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/MqApplication.java" />
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/MqApplication.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/myredis/RedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/MqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/LabelTest.java">
+    <entry file="file://$PROJECT_DIR$/redis/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/img/record.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-89">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mq/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="456">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/RabbitMQ.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/KAFKA1.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" selection-start-column="13" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -971,11 +1053,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>webservice:war exploded</last-edited>
+          <last-edited>md5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.1038603" />
                 <option value="0.5" />
               </list>
             </option>
@@ -988,7 +1070,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.1038603" />
               </list>
             </option>
           </splitter-proportions>
@@ -1024,7 +1106,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1044,11 +1125,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Md5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.45680147" />
               </list>
             </option>
           </splitter-proportions>

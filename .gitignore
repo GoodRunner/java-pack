@@ -3,6 +3,7 @@ auth/target
 dubbo/target
 mq/target
 mybatis/target
+quasar/target
 redis/target
 springboot/target
 webservice/target

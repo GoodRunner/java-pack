@@ -9,6 +9,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -23,6 +24,18 @@ public class BookServiceTests {
     List<Book> list = bookService.getBook();
     System.out.println(list);
     Assert.assertNotNull(list);
+  }
+
+  @Test
+  public void test0() {
+    StringBuffer sb = new StringBuffer();
+
+    sb.append("123");
+    sb.append(",");
+    sb.append("456");
+
+    sb.trimToSize();
+    System.out.println(sb.toString());
   }
 
 }
