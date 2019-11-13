@@ -25,31 +25,31 @@ Building real-time streaming applications that transform or react to the streams
 
 **消息**  
 
-![record](/img/record.png)  
+![record](/mq/img/record.png)  
 
 **主题** 
-![topic](/img/topic.png)
+![topic](/mq/img/topic.png)
 
 **分区和副本**
-![topic](/img/replica.png)
+![topic](/mq/img/replica.png)
 
 **leader-follower** 
-![topic](/img/leader-flower.png)
+![topic](/mq/img/leader-flower.png)
 
 **broker** 
-![broker](/img/broker.png)
+![broker](/mq/img/broker.png)
 
 **生产者消费者** 
-![shengchanzhexiaofeizhe](/img/pro-consu.png)
+![shengchanzhexiaofeizhe](/mq/img/pro-consu.png)
 
 **isr** 
-![isr](/img/isr.png)
+![isr](/mq/img/isr.png)
 
 **zookeeper** 
-![zoo](/img/zookeepere.png)
+![zoo](/mq/img/zookeepere.png)
 
 **某一集群架构图** 
-![cluster](/img/cluster.png)
+![cluster](/mq/img/cluster.png)
 
 **版本更新**  
 `0.9`版本之前KAFKA消费者的偏移量存储在zookeeper中，之后的版本存储在KAFKA中`__concumer_offset`这个主题中  
