@@ -1,4 +1,4 @@
-.idea
+.idea/*
 auth/target
 dubbo/target
 mq/target

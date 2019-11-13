@@ -2,8 +2,10 @@
 
 [官网](http://kafka.apache.org/)  
 
-简介：  
+[文档](http://kafka.apache.org/0110/documentation.html)
 
+简介：  
+```
 Apache Kafka® is a distributed streaming platform. What exactly does that mean?  
 （Apache Kafka 是一个分布式的流处理平台）  
 A streaming platform has three key capabilities:  
@@ -20,6 +22,8 @@ Building real-time streaming data pipelines that reliably get data between syste
 （构建实时数据流管道，以可靠地在系统或应用程序之间获取数据）  
 Building real-time streaming applications that transform or react to the streams of data  
 （构建实时流应用程序以转换或响应数据流）  
+
+```
 
 ##### 名词介绍
 
@@ -50,6 +54,11 @@ Building real-time streaming applications that transform or react to the streams
 
 **某一集群架构图** 
 ![cluster](/mq/img/cluster.png)
+
+
+**结构目录**
+
+
 
 **版本更新**  
 `0.9`版本之前KAFKA消费者的偏移量存储在zookeeper中，之后的版本存储在KAFKA中`__concumer_offset`这个主题中  
