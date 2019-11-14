@@ -57,7 +57,13 @@ Building real-time streaming applications that transform or react to the streams
 
 
 **结构目录**
-
+![](/mq/img/stracture.png)  
+`bin`目录下存放一些可执行的命令文件:
+    server相关命令、生产者相关命令、消费者相关命令等  
+`config`目录主要是存放一些配置文件  
+其中`server.properties`是主要配置文件 [详情请见-->]()  
+`logs`目录下面是存放server产生的`日志`和存放在kafka中的`数据`(生产者发送到kafka中的数据会做落盘处理保存一段时间)  
+需要注意的是配置文件中`log.dirs`这个配置是设置数据存放的位置的可以配置成`数据和系统日志分离`
 
 
 **版本更新**  
