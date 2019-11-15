@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea813067-3ffa-4313-9517-0c016ab52c39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/KAFKA.MD" beforeDir="false" afterPath="$PROJECT_DIR$/mq/KAFKA.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mq/KAFKA_CONFIG.MD" beforeDir="false" afterPath="$PROJECT_DIR$/mq/KAFKA_CONFIG.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,24 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
-                <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+              <first_editor relative-caret-position="1387">
+                <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mq/KAFKA_CONFIG.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="474">
-                <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+              <first_editor relative-caret-position="109">
+                <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,8 +137,8 @@
         <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/service/Tesss.java" />
         <option value="$PROJECT_DIR$/mq/KAFKA_PRODUCER.MD" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/mq/KAFKA_CONFIG.MD" />
         <option value="$PROJECT_DIR$/mq/KAFKA.MD" />
+        <option value="$PROJECT_DIR$/mq/KAFKA_CONFIG.MD" />
       </list>
     </option>
   </component>
@@ -204,7 +203,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573737711792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573784014915" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -454,7 +453,7 @@
       <workItem from="1573565900713" duration="3983000" />
       <workItem from="1573626157893" duration="86000" />
       <workItem from="1573630043559" duration="1642000" />
-      <workItem from="1573702390815" duration="12508000" />
+      <workItem from="1573702390815" duration="13460000" />
     </task>
     <servers />
   </component>
@@ -491,13 +490,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212219000" />
+    <option name="totallyTimeSpent" value="213171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.0691358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.107407406" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -513,7 +512,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19958203" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.03970742" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.523511" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -942,21 +941,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA_CONFIG.MD">
+    <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="474">
-            <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <first_editor relative-caret-position="1387">
+            <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
+    <entry file="file://$PROJECT_DIR$/mq/KAFKA_CONFIG.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <first_editor relative-caret-position="109">
+            <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           </first_editor>
           <second_editor />
         </state>

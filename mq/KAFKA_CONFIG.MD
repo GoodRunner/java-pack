@@ -1,5 +1,6 @@
 ### kafka配置  
-
+  
+下面是一些配置，[全部配置 详见-->>](http://kafka.apache.org/0101/documentation.html#configuration)    
 #### 基础配置  
 |   参数名   |  解释    |  默认值  |
 | ---- | ---- | ---- |
