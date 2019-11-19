@@ -13,6 +13,7 @@
 | socket.request.max.bytes | 请求的最大字节数。防止内存溢出 | 104857600
 | log.dirs | kafka存放数据日志的地方 |  KAFKA_HOME/logs
 | num.partitions | 每一个Topic的分区数，建议：分区数和broker数相等 | 1
+| replica.lag.time.max.ms | If a follower hasn't sent any fetch requests or hasn't consumed up to the leaders log end offset for at least this time, the leader will remove the follower from isr | 10000
 | num.recovery.threads.per.data.dir | 每个数据目录启动时用于日志恢复和关闭时flush的的线程数。 | 1
 | offsets.topic.replication.factor | 内置Topic(__consumer_offsets)默认副本数,对于开发测试以外的任何情况，建议使用大于 1 的值来确保可用性比如:3| 1
 | transaction.state.log.replication.factor | 内置Topic(__transaction_state)默认副本数,对于开发测试以外的任何情况，建议使用大于 1 的值来确保可用性比如:3| 1
