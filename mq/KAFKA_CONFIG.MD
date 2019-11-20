@@ -41,3 +41,5 @@
 | ---- | ---- | ---- |
 |  zookeeper.connect    |  链接zookeeper  | localhost:2181
 |  zookeeper.connection.timeout.ms    |  链接zk的超时时间 | 6000  
+|  enable.auto.commit    |  设置消费者是否可以自动提交offset | true
+|  auto.commit.interval.ms    |  如果是自动提交方式提交offset设置自动提交间隔时间 | 5000  
