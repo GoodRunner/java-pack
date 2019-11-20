@@ -85,7 +85,10 @@ Kafka 严重依赖于 Zookeeper 集群，所有的 Broker 在启动的时候都�
 分区内有序
 
 **分区内副本对消费者的数据一致性**  
-hw:高水位
+![hw](/mq/img/hw&leo.png)  
+hw:高水位是对消费者可见的消息  
+leo:是leader最高写入的消息位置  
+当发生leader的更替的时候所有的副本需要从hw位置截掉，再从新从leader拉取数据。
 
 
 **版本更新**  
