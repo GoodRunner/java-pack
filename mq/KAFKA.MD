@@ -105,4 +105,5 @@ leo:是leader最高写入的消息位置
 2、顺序写磁盘  
 3、分布式  
 
-[好文推荐 -->](https://blog.csdn.net/u013573133/article/details/48142677)
+[好文推荐 -->](https://blog.csdn.net/u013573133/article/details/48142677)  
+[性能调优](https://www.jianshu.com/p/f62099d174d9)
