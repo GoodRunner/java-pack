@@ -14,6 +14,7 @@
 		<module>websocket</module>
         <module>quasar</module>
         <module>es</module>
+        <module>zookeeper</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

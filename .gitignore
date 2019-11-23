@@ -1,4 +1,6 @@
+.DS_Store
 .idea/*
+../.idea/**
 auth/target
 dubbo/target
 mq/target
@@ -8,3 +10,4 @@ redis/target
 springboot/target
 webservice/target
 websocket/target
+zookeeper/target
