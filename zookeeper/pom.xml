@@ -14,28 +14,28 @@
 <dependencies>
 
      <!--原生api-->
-    <dependency>
-        <groupId>org.apache.zookeeper</groupId>
-        <artifactId>zookeeper</artifactId>
-        <version>3.4.10</version>
-    </dependency>
-    <!-- zkclient -->
+    <!--<dependency>-->
+        <!--<groupId>org.apache.zookeeper</groupId>-->
+        <!--<artifactId>zookeeper</artifactId>-->
+        <!--<version>3.5.5</version>-->
+    <!--</dependency>-->
+    <!--&lt;!&ndash; zkclient &ndash;&gt;-->
     <!--<dependency>-->
         <!--<groupId>com.101tec</groupId>-->
         <!--<artifactId>zkclient</artifactId>-->
         <!--<version>0.11</version>-->
     <!--</dependency>-->
 
-    <!--<dependency>-->
-        <!--<groupId>org.apache.curator</groupId>-->
-        <!--<artifactId>curator-framework</artifactId>-->
-        <!--<version>4.0.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-        <!--<groupId>org.apache.curator</groupId>-->
-        <!--<artifactId>curator-recipes</artifactId>-->
-        <!--<version>4.0.0</version>-->
-    <!--</dependency>-->
+    <dependency>
+        <groupId>org.apache.curator</groupId>
+        <artifactId>curator-framework</artifactId>
+        <version>4.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.curator</groupId>
+        <artifactId>curator-recipes</artifactId>
+        <version>4.0.0</version>
+    </dependency>
 
 </dependencies>
 </project>
