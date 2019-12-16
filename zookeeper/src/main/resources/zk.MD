@@ -35,7 +35,8 @@ Zookeeper是一个由多个server组成的集群
 
 #### 状态信息  
 ![状态信息](../../../img/statInfo.png)  
-可以看见图中通过`get`命令获取了`wpqTestNode`节点的状态信息。  
+可以看见图中通过`get`命令获取了`wpqTestNode`节点的状态信息。    
+其中version是用来实现乐观锁的，类似mysql的`mvcc`.  
 
 | 状态属性 | 说明 |
 | ---- | ---- |
@@ -49,6 +50,37 @@ Zookeeper是一个由多个server组成的集群
 |   aclVersion   | 当前数据节点ACL变更的版本号   |
 
 
+
+#### 事务ID  
+在`zookeeper`中，事务是指能够改变zookeeper服务器状态的操作，我们也成为事务操作或者更新操作。一般包括数据节点的创建和删除、数据节点内容更新和客户端会话创建与失效操作。对于每个事务请求，zookeeper会为其分配一个全局唯一的事务ID，用ZXID来表示，通常是64位的数字，每一个ZXID对应一次更新操作，从这些ZXID中可以间接地识别出zookeeper处理这些更新操作请求的全局顺序。
+
+#### ACL(Access Control List)访问控制列表  
+在`Unix/Linux`文件系统中是使用的权限控制方式是 -- `UGO(User、Group、Other)`,`UGO`就是针对一个文件或者目录，对创建者，创建者所在对组和其他用户分别配置不同的权限，可以看出来这样的粒度比较粗。相比较之下我们可以从三个方面来理解`ACL`机制：  
+**1. 权限模式（Scheme）**  
+
+权限模式用来确定权限验证过程中使用的检验策略，在zookeeper中开发人员使用最多的是一下四种权限模式  
+
+|权限模式| 授权对象|
+|----|----|
+|`IP`| 通常是一个IP地址或者是IP段，例如 `192.168.1.110` 或 `192.168.1.1/24`|
+|`Digest`| 自定义，通常是：`username:BASE64(SHA-1(nsername:password))`|
+|`World`| 只有一个ID ： "anyone"|
+|`Super`| 与Digest模式一致|
+
+**2. 授权对象（ID）**  
+见上  
+**3. 权限（Permission）**  
+在zookeeper中操作权限可以分为五大类  
+
+|权限字段| 说明|
+|----|----|
+|CREATE(C)| 数据节点的创建权限，允许授权对象在该数据节点下创建子节点|
+|DELETE(D)| 子节点的删除权限|
+|READ(R)| 数据节点的读取权限，允许访问数据节点，读取数据，读取子节点列表|
+|WRITE(W)| 数据节点的更新权限|
+|ADMIN(A)| 数据节点的管理权限，允许授权对象对该数据节点进行ACL相关对设置操作|
+
+
 #### 工作原理  
 
 [zab协议](https://blog.csdn.net/jin5203344/article/details/53142027)  
@@ -56,3 +88,6 @@ Zookeeper是一个由多个server组成的集群
 #### 选举流程  
 
 [好文推荐](https://www.cnblogs.com/sunddenly/articles/4143859.html)
+
+#### 序列化  
+`Jute`自行了解
