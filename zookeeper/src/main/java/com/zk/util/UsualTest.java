@@ -38,6 +38,7 @@ public class UsualTest {
 
     int myCount = 0;
 
+
     long c = System.currentTimeMillis();
 
     for (Integer itg : list) {
