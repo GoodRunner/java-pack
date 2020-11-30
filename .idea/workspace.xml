@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ApiMac" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea813067-3ffa-4313-9517-0c016ab52c39" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/mq/target/" />
-    <ignored path="$PROJECT_DIR$/springboot/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo/target/" />
-    <ignored path="$PROJECT_DIR$/auth/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/redis/target/" />
-    <ignored path="$PROJECT_DIR$/webservice/target/" />
-    <ignored path="$PROJECT_DIR$/websocket/target/" />
-    <ignored path="$PROJECT_DIR$/quasar/target/" />
-    <ignored path="$PROJECT_DIR$/es/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ea813067-3ffa-4313-9517-0c016ab52c39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/learn/netty/real/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/target/classes/META-INF/es.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/target/classes/com/es/config/EsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/es/target/classes/com/es/config/EsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/target/classes/com/es/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/es/target/classes/com/es/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/java/com/mq/service/Tesss.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/mq/service/Tesss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChineseCharToEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChineseCharToEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/myredis/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/myredis/RedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/myredis/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/myredis/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/myredis/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/myredis/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/myredis/service/ServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/myredis/service/ServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/zookeeper.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,286 +59,50 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZkService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper/src/main/resources/zk.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1558">
-                <caret line="82" selection-start-line="82" selection-end-line="82" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/DistributeLockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/UsualTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2318">
-              <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>1</find>
-      <find>dis</find>
-      <find>jedis</find>
-      <find>maxIdle</find>
-      <find>spring.redis.jedis.pool.maxIdle</find>
-      <find>sha1Hex</find>
-      <find>\</find>
-      <find>&quot;</find>
-      <find>isr</find>
-      <find>Del</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>2</replace>
-      <replace>'</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/es/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/es/pom.xml" />
-        <option value="$PROJECT_DIR$/es/src/main/java/com/es/config/EsConfig.java" />
-        <option value="$PROJECT_DIR$/es/src/main/java/com/es/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/mybatis/service/BookServiceTests.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/FirstLetter.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChineseCharToEn.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/dao/Md5.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Md5.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/Abc.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ChToEnChar.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/MqApplication.java" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/com/MqApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/MqApplication.java" />
-        <option value="$PROJECT_DIR$/mq/pom.xml" />
-        <option value="$PROJECT_DIR$/mq/src/main/resources/Application.properties" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/mq/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mq/KAFKA1.MD" />
-        <option value="$PROJECT_DIR$/mq/src/test/java/MyTest.java" />
-        <option value="$PROJECT_DIR$/mq/src/main/java/com/mq/service/Tesss.java" />
-        <option value="$PROJECT_DIR$/mq/KAFKA_CONSUMER.MD" />
-        <option value="$PROJECT_DIR$/mq/KAFKA_CONFIG.MD" />
-        <option value="$PROJECT_DIR$/mq/KAFKA_PRODUCER.MD" />
-        <option value="$PROJECT_DIR$/mq/KAFKA.MD" />
-        <option value="$PROJECT_DIR$/mq/src/main/resources/html/qrcode.html" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/ZookeeperApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/MyWatcher.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/FirstService.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZookeeperAbstractLock.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/zkLockUtil.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/zkService.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/AbstractLock.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/impl/ZookeeperDistrbuteLock.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/config/ZookeeperConfig.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/Lock.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZookeeperDistrbuteLock.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/DistributeLockTest.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/OrderSrvice.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZkService.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/resources/zk.MD" />
-        <option value="$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/UsualTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zookeeper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zookeeper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="240" />
-    <option name="y" value="151" />
-    <option name="width" value="1440" />
-    <option name="height" value="788" />
-  </component>
+  <component name="ProjectId" id="1Yy0iKk7aKQ6SOfonuUEgpjOZk6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-pack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-pack" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zk" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576582836172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583736360519" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.1038603" />
+    <property name="project.structure.side.proportion" value="0.13000818" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -336,6 +113,10 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solve" />
+      <recent name="com.mybatis.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/zookeeper/img" />
       <recent name="$PROJECT_DIR$/mybatis/target/classes/com/mybatis/util" />
@@ -343,25 +124,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.UsualTest">
-    <configuration name="DistributeLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.util.DistributeLockTest" />
-      <module name="zookeeper" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solve.Client" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zk.util.*" />
+          <option name="PATTERN" value="solve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,19 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="mq" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderSrvice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.service.OrderSrvice" />
-      <module name="zookeeper" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="show.Client" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zk.service.*" />
+          <option name="PATTERN" value="show.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tesss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mq.service.Tesss" />
-      <module name="mq" />
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.netty.longconnect.MyServer" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mq.service.*" />
+          <option name="PATTERN" value="com.learn.netty.longconnect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +164,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsualTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.util.UsualTest" />
-      <module name="zookeeper" />
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solve.Server" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zk.util.*" />
+          <option name="PATTERN" value="solve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="show.Server" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="show.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,6 +200,13 @@
     <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="es" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.es.EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnNettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.netty.LearnNettyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,6 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Shardingjdbc" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shardingjdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.Shardingjdbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="webservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.WebServiceApplication" />
@@ -471,13 +260,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyServer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server (1)" />
+      <item itemvalue="Application.Client (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsualTest" />
-        <item itemvalue="Application.OrderSrvice" />
-        <item itemvalue="Application.DistributeLockTest" />
-        <item itemvalue="Application.Tesss" />
-        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.MyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -610,594 +406,372 @@
       <workItem from="1576466788192" duration="6889000" />
       <workItem from="1576562918530" duration="5272000" />
       <workItem from="1576633518024" duration="807000" />
+      <workItem from="1576895550056" duration="2647000" />
+      <workItem from="1577068005900" duration="661000" />
+      <workItem from="1577095199378" duration="2933000" />
+      <workItem from="1577179948861" duration="1347000" />
+      <workItem from="1577285519479" duration="642000" />
+      <workItem from="1577863180407" duration="3080000" />
+      <workItem from="1577936779456" duration="191000" />
+      <workItem from="1578103958119" duration="405000" />
+      <workItem from="1578454947562" duration="1313000" />
+      <workItem from="1578624904677" duration="757000" />
+      <workItem from="1578885499015" duration="991000" />
+      <workItem from="1578970371160" duration="1178000" />
+      <workItem from="1579688601542" duration="956000" />
+      <workItem from="1579756781198" duration="8034000" />
+      <workItem from="1580094876779" duration="1156000" />
+      <workItem from="1580129575620" duration="5967000" />
+      <workItem from="1580194402344" duration="9863000" />
+      <workItem from="1580566859687" duration="230000" />
+      <workItem from="1580689296566" duration="632000" />
+      <workItem from="1580787195991" duration="132000" />
+      <workItem from="1580802897300" duration="4395000" />
+      <workItem from="1581154171499" duration="973000" />
+      <workItem from="1581266023543" duration="971000" />
+      <workItem from="1581311470683" duration="332000" />
+      <workItem from="1581514887769" duration="908000" />
+      <workItem from="1581603276500" duration="484000" />
+      <workItem from="1581689303498" duration="1479000" />
+      <workItem from="1582024550470" duration="180000" />
+      <workItem from="1582025744533" duration="642000" />
+      <workItem from="1582288678751" duration="565000" />
+      <workItem from="1582614758390" duration="183000" />
+      <workItem from="1582946611986" duration="1355000" />
+      <workItem from="1583137429343" duration="506000" />
+      <workItem from="1583328308572" duration="495000" />
+      <workItem from="1583488702346" duration="595000" />
+      <workItem from="1605797925542" duration="343000" />
+      <workItem from="1605802341620" duration="176000" />
+      <workItem from="1605802576492" duration="107000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 32m 32s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 34m 05s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LabelTest_haveTest - 2019.04.02 at 14h 35m 27s.xml">
-      <configuration name="LabelTest.haveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest_doTest - 2019.05.16 at 15h 49m 56s.xml">
-      <configuration name="MyTest.doTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest_doTest - 2019.05.16 at 15h 50m 12s.xml">
-      <configuration name="MyTest.doTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 41m 11s.xml">
-      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 41m 38s.xml">
-      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTests_test0 - 2019.07.15 at 10h 42m 04s.xml">
-      <configuration name="BookServiceTests.test0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest_initSql - 2019.11.07 at 14h 29m 58s.xml">
-      <configuration name="MyTest.initSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest_initSql - 2019.11.07 at 14h 31m 55s.xml">
-      <configuration name="MyTest.initSql" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271901000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.31049383" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Structure" order="7" sideWeight="0.5005549" weight="0.1864" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33751306" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19644724" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43782654" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.523511" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.062234797" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.05374823" />
-      <window_info anchor="bottom" id="EvoSuite" order="16" />
-      <window_info anchor="bottom" id="Statistic" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.17377049" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3295082" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32962963" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.19567901" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Structure" order="7" sideWeight="0.5005549" weight="0.1864" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5276907" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.61103255" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39498433" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.523511" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.062234797" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.05374823" />
-      <window_info anchor="bottom" id="EvoSuite" order="16" />
-      <window_info anchor="bottom" id="Statistic" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.17377049" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3295082" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="145" width="1440" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605798712892">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="798" y="367" key="#com.intellij.execution.impl.EditConfigurationsDialog/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602829709418" />
+    <state x="0" y="162" width="1280" height="638" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1603963173520" />
+    <state x="0" y="145" width="1440" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605798712892" />
+    <state x="0" y="291" key="#com.intellij.execution.impl.EditConfigurationsDialog/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1605701613115" />
+    <state x="642" y="109" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605802783819">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="642" y="109" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605802783819" />
+    <state x="642" y="123" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1605802424035" />
+    <state x="973" y="510" key="#com.intellij.fileTypes.FileTypeChooser/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1605703846185" />
+    <state x="522" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1606321004844">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="928" y="216" key="#com.intellij.ide.util.MemberChooser/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1598942258306" />
+    <state x="522" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606321004844" />
+    <state x="928" y="216" key="#com.intellij.ide.util.MemberChooser/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606308889814" />
+    <state x="530" y="23" width="379" height="822" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1604712588400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="530" y="23" width="379" height="822" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1604712588400" />
+    <state x="333" y="97" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1604712595088">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="333" y="97" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604712595088" />
+    <state width="918" height="933" key="DebuggerActiveHint" timestamp="1605793791468">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="902" height="932" key="DebuggerActiveHint/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1599188006193" />
+    <state width="516" height="583" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1604161997712" />
+    <state width="918" height="933" key="DebuggerActiveHint/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1605058980379" />
+    <state width="918" height="933" key="DebuggerActiveHint/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793791468" />
+    <state width="1378" height="598" key="GridCell.Tab.0.bottom" timestamp="1606355143733">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.0.bottom/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402038" />
+    <state width="2500" height="285" key="GridCell.Tab.0.bottom/-714.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1597732145978" />
+    <state width="2500" height="598" key="GridCell.Tab.0.bottom/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306772" />
+    <state width="2500" height="195" key="GridCell.Tab.0.bottom/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830252121" />
+    <state width="2500" height="473" key="GridCell.Tab.0.bottom/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791069" />
+    <state width="2500" height="487" key="GridCell.Tab.0.bottom/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174307" />
+    <state width="2500" height="290" key="GridCell.Tab.0.bottom/-725.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1599186526889" />
+    <state width="2500" height="155" key="GridCell.Tab.0.bottom/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775341" />
+    <state width="2500" height="473" key="GridCell.Tab.0.bottom/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951325" />
+    <state width="1988" height="364" key="GridCell.Tab.0.bottom/-735.1152.1280.800/0.0.2048.1152@0.0.2048.1152" timestamp="1602470866970" />
+    <state width="2500" height="473" key="GridCell.Tab.0.bottom/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821892" />
+    <state width="1220" height="362" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603964924446" />
+    <state width="1378" height="598" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606321809063" />
+    <state width="690" height="350" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1605802518227" />
+    <state width="1378" height="433" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606321509867" />
+    <state width="1378" height="598" key="GridCell.Tab.0.bottom/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606355143733" />
+    <state width="2498" height="432" key="GridCell.Tab.0.bottom/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309139139" />
+    <state width="2498" height="640" key="GridCell.Tab.0.bottom/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793156447" />
+    <state width="2500" height="656" key="GridCell.Tab.0.bottom/1826.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1603286277585" />
+    <state width="1378" height="598" key="GridCell.Tab.0.center" timestamp="1606355143731">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.0.center/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402036" />
+    <state width="2500" height="285" key="GridCell.Tab.0.center/-714.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1597732145972" />
+    <state width="2500" height="598" key="GridCell.Tab.0.center/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306763" />
+    <state width="2500" height="195" key="GridCell.Tab.0.center/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830252105" />
+    <state width="2500" height="473" key="GridCell.Tab.0.center/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791066" />
+    <state width="2500" height="487" key="GridCell.Tab.0.center/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174302" />
+    <state width="2500" height="290" key="GridCell.Tab.0.center/-725.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1599186526885" />
+    <state width="2500" height="155" key="GridCell.Tab.0.center/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775339" />
+    <state width="2500" height="473" key="GridCell.Tab.0.center/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951321" />
+    <state width="1988" height="364" key="GridCell.Tab.0.center/-735.1152.1280.800/0.0.2048.1152@0.0.2048.1152" timestamp="1602470866926" />
+    <state width="2500" height="473" key="GridCell.Tab.0.center/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821888" />
+    <state width="1220" height="362" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603964924441" />
+    <state width="1378" height="598" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606321809061" />
+    <state width="690" height="350" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1605802518226" />
+    <state width="1378" height="433" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606321509865" />
+    <state width="1378" height="598" key="GridCell.Tab.0.center/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606355143731" />
+    <state width="2498" height="432" key="GridCell.Tab.0.center/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309139135" />
+    <state width="2498" height="640" key="GridCell.Tab.0.center/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793156438" />
+    <state width="2500" height="656" key="GridCell.Tab.0.center/1826.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1603286277568" />
+    <state width="1378" height="598" key="GridCell.Tab.0.left" timestamp="1606355143730">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.0.left/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402034" />
+    <state width="2500" height="285" key="GridCell.Tab.0.left/-714.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1597732145969" />
+    <state width="2500" height="598" key="GridCell.Tab.0.left/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306753" />
+    <state width="2500" height="195" key="GridCell.Tab.0.left/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830252097" />
+    <state width="2500" height="473" key="GridCell.Tab.0.left/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791065" />
+    <state width="2500" height="487" key="GridCell.Tab.0.left/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174295" />
+    <state width="2500" height="290" key="GridCell.Tab.0.left/-725.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1599186526882" />
+    <state width="2500" height="155" key="GridCell.Tab.0.left/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775338" />
+    <state width="2500" height="473" key="GridCell.Tab.0.left/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951317" />
+    <state width="1988" height="364" key="GridCell.Tab.0.left/-735.1152.1280.800/0.0.2048.1152@0.0.2048.1152" timestamp="1602470866914" />
+    <state width="2500" height="473" key="GridCell.Tab.0.left/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821886" />
+    <state width="1220" height="362" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603964924433" />
+    <state width="1378" height="598" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606321809055" />
+    <state width="690" height="350" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1605802518226" />
+    <state width="1378" height="433" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606321509861" />
+    <state width="1378" height="598" key="GridCell.Tab.0.left/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606355143730" />
+    <state width="2500" height="656" key="GridCell.Tab.0.left/1826.1440.1280.800/0.23.2560.1362@0.23.2560.1362" timestamp="1603286277565" />
+    <state width="2498" height="432" key="GridCell.Tab.0.left/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309139133" />
+    <state width="2498" height="640" key="GridCell.Tab.0.left/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793156436" />
+    <state width="1378" height="598" key="GridCell.Tab.0.right" timestamp="1606355143732">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.0.right/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402037" />
+    <state width="2500" height="285" key="GridCell.Tab.0.right/-714.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1597732145975" />
+    <state width="2500" height="598" key="GridCell.Tab.0.right/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306769" />
+    <state width="2500" height="195" key="GridCell.Tab.0.right/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830252111" />
+    <state width="2500" height="473" key="GridCell.Tab.0.right/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791068" />
+    <state width="2500" height="487" key="GridCell.Tab.0.right/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174305" />
+    <state width="2500" height="290" key="GridCell.Tab.0.right/-725.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1599186526887" />
+    <state width="2500" height="155" key="GridCell.Tab.0.right/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775340" />
+    <state width="2500" height="473" key="GridCell.Tab.0.right/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951322" />
+    <state width="1988" height="364" key="GridCell.Tab.0.right/-735.1152.1280.800/0.0.2048.1152@0.0.2048.1152" timestamp="1602470866953" />
+    <state width="2500" height="473" key="GridCell.Tab.0.right/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821890" />
+    <state width="1220" height="362" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603964924444" />
+    <state width="1378" height="598" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606321809062" />
+    <state width="690" height="350" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1605802518227" />
+    <state width="1378" height="433" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606321509866" />
+    <state width="1378" height="598" key="GridCell.Tab.0.right/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606355143732" />
+    <state width="2498" height="432" key="GridCell.Tab.0.right/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309139137" />
+    <state width="2498" height="640" key="GridCell.Tab.0.right/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793156444" />
+    <state width="2500" height="656" key="GridCell.Tab.0.right/1826.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1603286277583" />
+    <state width="1378" height="621" key="GridCell.Tab.1.bottom" timestamp="1606321792343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.1.bottom/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402046" />
+    <state width="2500" height="598" key="GridCell.Tab.1.bottom/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306565" />
+    <state width="2500" height="195" key="GridCell.Tab.1.bottom/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830251824" />
+    <state width="2500" height="473" key="GridCell.Tab.1.bottom/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791073" />
+    <state width="2500" height="487" key="GridCell.Tab.1.bottom/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174101" />
+    <state width="2500" height="155" key="GridCell.Tab.1.bottom/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775345" />
+    <state width="2500" height="473" key="GridCell.Tab.1.bottom/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951109" />
+    <state width="2500" height="473" key="GridCell.Tab.1.bottom/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821900" />
+    <state width="1220" height="362" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603964924193" />
+    <state width="1378" height="621" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606321792343" />
+    <state width="690" height="350" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1605802518229" />
+    <state width="1378" height="433" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606321509871" />
+    <state width="2498" height="503" key="GridCell.Tab.1.bottom/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606309249985" />
+    <state width="2498" height="432" key="GridCell.Tab.1.bottom/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309139000" />
+    <state width="2498" height="572" key="GridCell.Tab.1.bottom/1826.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1605793945037" />
+    <state width="2498" height="814" key="GridCell.Tab.1.bottom/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793609856" />
+    <state width="1378" height="621" key="GridCell.Tab.1.center" timestamp="1606321792342">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.1.center/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402043" />
+    <state width="2500" height="598" key="GridCell.Tab.1.center/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306561" />
+    <state width="2500" height="195" key="GridCell.Tab.1.center/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830251807" />
+    <state width="2500" height="473" key="GridCell.Tab.1.center/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791071" />
+    <state width="2500" height="487" key="GridCell.Tab.1.center/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174095" />
+    <state width="2500" height="155" key="GridCell.Tab.1.center/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775343" />
+    <state width="2500" height="473" key="GridCell.Tab.1.center/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951104" />
+    <state width="2500" height="473" key="GridCell.Tab.1.center/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821896" />
+    <state width="1220" height="362" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1603964924190" />
+    <state width="1378" height="621" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606321792342" />
+    <state width="690" height="350" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1605802518228" />
+    <state width="1378" height="433" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1606321509869" />
+    <state width="2498" height="503" key="GridCell.Tab.1.center/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606309249983" />
+    <state width="2498" height="432" key="GridCell.Tab.1.center/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309138995" />
+    <state width="2498" height="572" key="GridCell.Tab.1.center/1826.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1605793945033" />
+    <state width="2498" height="814" key="GridCell.Tab.1.center/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793609852" />
+    <state width="1378" height="621" key="GridCell.Tab.1.left" timestamp="1606321792341">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.1.left/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402039" />
+    <state width="2500" height="598" key="GridCell.Tab.1.left/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306558" />
+    <state width="2500" height="195" key="GridCell.Tab.1.left/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830251804" />
+    <state width="2500" height="473" key="GridCell.Tab.1.left/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791069" />
+    <state width="2500" height="487" key="GridCell.Tab.1.left/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174092" />
+    <state width="2500" height="155" key="GridCell.Tab.1.left/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775342" />
+    <state width="2500" height="473" key="GridCell.Tab.1.left/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951101" />
+    <state width="2500" height="473" key="GridCell.Tab.1.left/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821894" />
+    <state width="1220" height="362" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1603964924188" />
+    <state width="1378" height="621" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606321792341" />
+    <state width="690" height="350" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1605802518227" />
+    <state width="1378" height="433" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1606321509868" />
+    <state width="2498" height="503" key="GridCell.Tab.1.left/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606309249982" />
+    <state width="2498" height="432" key="GridCell.Tab.1.left/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309138993" />
+    <state width="2498" height="572" key="GridCell.Tab.1.left/1826.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1605793945031" />
+    <state width="2498" height="814" key="GridCell.Tab.1.left/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793609851" />
+    <state width="1378" height="621" key="GridCell.Tab.1.right" timestamp="1606321792343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2500" height="376" key="GridCell.Tab.1.right/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602831402044" />
+    <state width="2500" height="598" key="GridCell.Tab.1.right/-714.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1602498306563" />
+    <state width="2500" height="195" key="GridCell.Tab.1.right/-714.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1602830251814" />
+    <state width="2500" height="473" key="GridCell.Tab.1.right/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602296791072" />
+    <state width="2500" height="487" key="GridCell.Tab.1.right/-725.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1598942174097" />
+    <state width="2500" height="155" key="GridCell.Tab.1.right/-725.1463.1280.777/0.0.2560.1440@0.0.2560.1440" timestamp="1601189775344" />
+    <state width="2500" height="473" key="GridCell.Tab.1.right/-725.1463.1280.777/0.23.2560.1362@0.23.2560.1362" timestamp="1601272951106" />
+    <state width="2500" height="473" key="GridCell.Tab.1.right/-735.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602322821898" />
+    <state width="1220" height="362" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1603964924192" />
+    <state width="1378" height="621" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606321792343" />
+    <state width="690" height="350" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1605802518228" />
+    <state width="1378" height="433" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1606321509870" />
+    <state width="2498" height="503" key="GridCell.Tab.1.right/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606309249984" />
+    <state width="2498" height="432" key="GridCell.Tab.1.right/1826.1463.1280.720/0.23.2560.1417@0.23.2560.1417" timestamp="1606309138998" />
+    <state width="2498" height="572" key="GridCell.Tab.1.right/1826.1463.1280.722/0.0.2560.1440@0.0.2560.1440" timestamp="1605793945035" />
+    <state width="2498" height="814" key="GridCell.Tab.1.right/1826.1463.1280.722/0.23.2560.1417@0.23.2560.1417" timestamp="1605793609854" />
+    <state x="205" y="96" key="IDE.errors.dialog" timestamp="1605802637869">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="205" y="96" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1605802637869" />
+    <state x="205" y="111" key="IDE.errors.dialog/0.23.1440.822@0.23.1440.822" timestamp="1605802495030" />
+    <state x="448" y="33" key="RollbackChangesDialog" timestamp="1604713094080">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="448" y="33" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604713094080" />
+    <state x="0" y="37" width="1440" height="857" key="SettingsEditor" timestamp="1606307913405">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="23" width="2560" height="1417" key="SettingsEditor/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1599034997714" />
+    <state x="0" y="23" width="1440" height="857" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606233203481" />
+    <state x="0" y="37" key="SettingsEditor/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1606307913405" />
+    <state x="379" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1606229230675">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="674" y="414" key="com.intellij.ide.util.TipDialog/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1599183861169" />
+    <state x="379" y="258" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1606229230675" />
+    <state x="379" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1605802896753" />
+    <state x="179" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604712502383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="179" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1604712502383" />
+    <state x="487" y="196" width="828" height="704" key="find.popup" timestamp="1603597401906">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="866" y="368" width="828" height="704" key="find.popup/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602828981770" />
+    <state x="866" y="313" width="1472" height="1127" key="find.popup/-725.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1599187051894" />
+    <state x="487" y="196" width="828" height="704" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603597401906" />
+    <state x="866" y="313" width="1472" height="1127" key="find.popup/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1603283497776" />
+    <state x="0" y="79" key="new project wizard" timestamp="1604159123734">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="79" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1604159123734" />
+    <state x="535" y="0" width="1490" height="1440" key="search.everywhere.popup" timestamp="1605700778025">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="535" y="0" width="1490" height="1440" key="search.everywhere.popup/-714.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1602492915499" />
+    <state x="301" y="0" width="838" height="900" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604159661918" />
+    <state x="535" y="0" width="1490" height="1440" key="search.everywhere.popup/1826.1440.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1605700778025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/redis/src/main/java/com/myredis/controller/RedisController.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/ApiMac.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mq/src/test/java/MyTest.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis/src/test/java/com/myredis/service/ServiceTests.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>2256</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="beanName.contains(&quot;pringBootConfiguration&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>364</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn/src/main/java/com/study/cache/CacheTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/test.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/test.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/src/main/java/com/mybatis/util/test.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn/src/main/java/com/study/lock/mylock/ReenterLock.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn/src/main/java/com/study/lock/mylock/ReenterLock.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/learn/netty/real/MyServer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/learn/netty/buf/Testbuf.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/learn/netty/longconnect/MyTextWebSocketFrameHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/learn/netty/longconnect/MyServer.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/test/java/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/service/Tesss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA_CONSUMER.MD" />
-    <entry file="file://$PROJECT_DIR$/mq/img/hw&amp;leo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA_CONFIG.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="836">
-            <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA_PRODUCER.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/main/resources/html/qrcode.html" />
-    <entry file="file://$PROJECT_DIR$/mq/KAFKA.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="545">
-            <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/src/main/java/com/mq/MqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/ZooKeeper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="477" lean-forward="true" selection-start-line="477" selection-end-line="477" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/FirstService.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/MyWatcher.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZookeeperAbstractLock.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.0/curator-framework-4.0.0.jar!/org/apache/curator/framework/schema/SchemaSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/ZookeeperApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/AbstractLock.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/impl/ZookeeperDistrbuteLock.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/OrderService.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/zkLockUtil.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1339" column="25" selection-start-line="1339" selection-start-column="25" selection-end-line="1339" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="290" column="23" selection-start-line="290" selection-start-column="23" selection-end-line="290" selection-end-column="23" />
-          <folding>
-            <element signature="e#9899#9900#0" expanded="true" />
-            <element signature="e#9936#9937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.0/curator-framework-4.0.0.jar!/org/apache/curator/framework/CuratorFrameworkFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="class#Builder#0;class#CuratorFrameworkFactory#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZookeeperDistrbuteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/OrderSrvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.0/curator-framework-4.0.0.jar!/org/apache/curator/framework/CuratorFramework.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/config/ZookeeperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/img/zkframwork.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/img/statInfo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-212" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="328" column="24" lean-forward="true" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
-          <folding>
-            <element signature="e#11985#11986#0" expanded="true" />
-            <element signature="e#12016#12017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-871">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/service/ZkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/resources/zk.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1558">
-            <caret line="82" selection-start-line="82" selection-end-line="82" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/DistributeLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/com/zk/util/UsualTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>md5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.1038603" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.1038603" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>java-pack</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Md5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.45680147" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_pack$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1598774352464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.study.lock.*</FILTER>
+    </SUITE>
   </component>
 </project>

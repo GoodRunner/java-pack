@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>长链接</title>
+</head>
+<body>
+
+    <script>
+        var socket;
+
+        if(window.WebSocket) {
+            socket = new WebSocket("ws://localhost:9999/hello");
+            // 相当于 channelread0 感知到 有消息过来
+            socket.onmessage = function(ev) {
+                var ret = document.getElementById("response");
+                ret.value = ret.value + "\n" + ev.data
+            }
+            // 相当于 链接开启 感知到 链接开启
+            socket.onopen = function(ev) {
+                var ret = document.getElementById("response");
+                ret.value = "链接开启";
+            }
+            // 相当于 链接关闭 感知到 链接关闭
+            socket.onclose = function(ev) {
+                var ret = document.getElementById("response");
+                ret.value = "链接开启";
+            }
+        } else {
+            alert('当前浏览器不支持websocket');
+        }
+
+        function send(msg) {
+
+            if(!window.socket) {// 判断 socket 是否 创建好
+                return;
+            } else if(socket.readyState == WebSocket.OPEN) {
+                socket.send(msg);
+                var ret = document.getElementById("message");
+                ret.value = '';
+            } else {
+                alert('有问题！');
+            }
+        }
+
+    </script>
+
+    <form onsubmit="return false" >
+        <textarea id="message" placeholder="需要发送的消息" name="message" style="height:300px; width: 500px"></textarea>
+        <input type="button" value="发送消息" onclick="send(this.form.message.value)">
+        <textarea id="response" placeholder="服务器返回的消息" name="response" style="height:300px; width: 500px"></textarea>
+        <input type="button"  value="清空内容" onclick="document.getElementById('response').value=''">
+    </form>
+
+</body>
+</html>

@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 @RunWith(SpringRunner.class)
@@ -18,24 +21,12 @@ public class ServiceTests {
   @Test
   public void testTime() {
 
+    HashMap<String, String> map = new HashMap(16);
+    for (int i = 0; i < 9; i++) {
+      map.put(i + "","hhh" + i);
+    }
+    //System.out.println(3 |= 3 >>> 1);
 
-
-//
-//    for (int i = 0; i < 1000; i++) {
-//      redisTemplate.opsForList().leftPush("key", "vic" + i);
-//    }
-//    long total = 0l;
-//    while (true) {
-//      long start = System.currentTimeMillis();
-//      String str = (String)redisTemplate.opsForList().rightPopAndLeftPush("key" , "bak", 3, TimeUnit.SECONDS);
-//      if (null == str)
-//        break;
-//      redisTemplate.opsForList().remove("bak", 1 , str);
-//      long end = System.currentTimeMillis();
-//      total += end-start;
-//    }
-//
-//    System.out.println(total);
 
   }
 

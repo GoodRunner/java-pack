@@ -41,4 +41,11 @@ public class Md5 {
     }
   }
 
+  public static void main(String[] args) {
+    String str = "2019-12-31 10:00:00";
+
+    String sss = str.substring(0,16);
+    System.out.println(sss);
+  }
+
 }

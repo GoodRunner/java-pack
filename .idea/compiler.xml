@@ -2,20 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth" />
-        <module name="dubbo" />
         <module name="es" />
-        <module name="mq" />
-        <module name="mybatis" />
-        <module name="quasar" />
-        <module name="redis" />
-        <module name="springboot" />
+        <module name="learn" />
+        <module name="netty" />
         <module name="websocket" />
+        <module name="springboot" />
+        <module name="auth" />
+        <module name="mq" />
+        <module name="redis" />
+        <module name="shardingjdbc" />
         <module name="zookeeper" />
+        <module name="quasar" />
+        <module name="mybatis" />
+        <module name="dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,10 +32,13 @@
       <module name="dubbo" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="java-pack" options="-parameters" />
+      <module name="learn" options="-parameters" />
       <module name="mq" options="-parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="netty" options="-parameters" />
       <module name="quasar" options="-parameters" />
       <module name="redis" options="-parameters" />
+      <module name="shardingjdbc" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="webservice" options="-parameters" />
       <module name="websocket" options="-parameters" />

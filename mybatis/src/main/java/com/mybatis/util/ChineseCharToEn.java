@@ -1,5 +1,11 @@
 package com.mybatis.util;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 
 public final class ChineseCharToEn {
@@ -75,13 +81,41 @@ public final class ChineseCharToEn {
   }
 
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
 
-    String chineseCar = "陈冠舄";
+    String chineseCar = "陈冠";
     ChineseCharToEn chineseCharToEn = new ChineseCharToEn();
     String letter = chineseCharToEn.getAllFirstLetter(chineseCar);
     System.out.println("文字内容:"+chineseCar);
     System.out.println("拼音首字母："+letter);
+
+    File file = new File("/Users/victor/Desktop/test.csv");
+
+    FileInputStream fin = new FileInputStream(file);
+
+    BufferedReader brder = new BufferedReader(new InputStreamReader(fin));
+//
+    StringBuilder sb = new StringBuilder("INSERT INTO `hl_live`.`hl_school`(`create_time`, `is_deleted`, `update_time`, `school_id`, `school_name`, `school_order`, `is_virtual`, `school_abbr`) VALUES ");
+    while (true) {
+      String sss = "('2020-09-04 12:00:00', b'1', '2020-09-04 12:00:00', ";
+      String line = brder.readLine();
+
+      if (line != null && !line.equals("")){
+        String[] sz = line.split(",");
+        String schoolId = sz[0].trim();
+        String schoolName = sz[1].trim();
+        String nameChar = chineseCharToEn.getAllFirstLetter(schoolName).toUpperCase();
+        sss = sss + schoolId + "," + "'" + schoolName + "'" + ",1, b'0', " + "'" + nameChar + "')";
+        sb.append(sss);
+        sb.append(",");
+        sb.append("\n");
+
+      } else {
+        break;
+      }
+
+    }
+    System.out.println(sb.toString());
 
   }
 
