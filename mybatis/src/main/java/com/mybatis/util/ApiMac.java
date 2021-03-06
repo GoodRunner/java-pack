@@ -1,5 +1,11 @@
 package com.mybatis.util;
 
+import cn.hutool.http.HttpUtil;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -15,6 +21,7 @@ import java.util.Set;
 import java.util.Stack;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 import javax.crypto.Mac;
 
 import javax.crypto.spec.SecretKeySpec;
@@ -85,14 +92,43 @@ public class ApiMac {
     // 2cedf018dfe87547a06719b9ef02fc91   测试环境
     ApiMac api = new ApiMac("59a0e77c3ec04e8db70c4402ef0e9f47");
 
-    String syt = api.sign("/usercenter/v2/students/search/code?studentCode=BJ1120569921");
-
-    //System.out.println(Md5.getMd5("roombox01589002776omo1197210994oBL"));
-    //System.out.println();
+    String syt = api.sign("/jiaowu-ps/api/v1/classes/list?school_id=65&fields=class_code,class_type_code,class_type_name,management_dept_code,management_dept_name,project_code, project_name, school_id,class_teachers,grade_code,grade_name,area_name,teaching_method,class_begin_date,class_end_date,class_name,teaching_channel&class_codes=CESHI502776&page_no=1&page_size=20");
     System.out.println(syt);
   }
 
   private final boolean 爱你 = true; // 爱你是私有属性并且永远是真的
 
+
+  public static void getPPT() throws Exception {
+
+
+
+    HashMap<String, Object> objectObjectHashMap = new HashMap<>();
+
+    objectObjectHashMap.put("Sec-Fetch-Dest", "document");
+
+    byte[] bts = new byte[1024];
+
+    for (int i = 1; i <=59 ; i++) {
+      String url = "https://docimg1.docin.com/docinpic.jsp?file=2271006620&width=1000&sid=yHH6pIOVGJZp3GVfrprls8d*XW3T2GpHKgthzc65KBZ58yF8yA74Un9mfrHxffcH&pcimg=1&pageno=";
+      File f = new File("/Users/victor/Desktop/ppt/" + i + ".jpg");
+      url = url + i;
+      URL s = new URL(url);
+
+      InputStream fs = s.openStream();
+
+      //String result = HttpUtil.get(url, objectObjectHashMap);
+      FileOutputStream fileOutputStream = new FileOutputStream(f);
+      while (fs.read(bts) > 0) {
+        fileOutputStream.write(bts);
+      }
+      fileOutputStream.flush();
+      fs.close();
+      fileOutputStream.close();
+    }
+
+    Thread.sleep(30000);
+
+  }
 
 }

@@ -1,5 +1,6 @@
 package com.study.lock;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
@@ -23,9 +24,8 @@ public class MyLock {
   public static void main(String[] args) {
     //ReentrantReadWriteLock reLock = new ReentrantReadWriteLock();
     ReentrantLock lock = new ReentrantLock();
-//    LockSupport.park();
-
-
+    lock.hashCode()
+    lock.unlock();
 
     CountDownLatch downLatch = new CountDownLatch(2);
 

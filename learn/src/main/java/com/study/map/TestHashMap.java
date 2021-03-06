@@ -8,6 +8,7 @@ import java.util.TreeSet;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.atomic.LongAdder;
 
 /**
  * @description: c
@@ -20,12 +21,13 @@ public class TestHashMap {
   volatile String s = "";
 
   public static void main(String[] args) {
-    //HashMap<String,String> m = new HashMap();
-    //ConcurrentHashMap mm = new ConcurrentHashMap();
-    String str = "(()(){}[{[()()[]([{{}}])]}])";
-    //boolean flag = isValid(str);
-    boolean flag = isVal(str);
-    System.out.println(str + " : " +flag);
+
+    HashMap<String,String> map = new HashMap(64);
+    map.put("llmcvmv","ggokro");
+    ConcurrentHashMap<String, String> cchm = new ConcurrentHashMap();
+    cchm.put("sdfsdf", "rvrgtb");
+    cchm.size();
+
   }
 
   final static char CH_1 = '(', CH_2 = ')';

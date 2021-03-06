@@ -1,5 +1,16 @@
 package com.mybatis.util;
 
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @description:
  * @author: victor
@@ -12,11 +23,8 @@ public class Bloom {
 
   public static void main(String[] args) {
 
-    int i = 0;
+    System.out.println("ioi");
 
-    synchronized (lock_pre) {
-      i += 1;
-    }
   }
 
 }

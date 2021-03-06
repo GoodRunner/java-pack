@@ -4,9 +4,13 @@ import io.searchbox.client.JestClient;
 import io.searchbox.indices.template.GetTemplate;
 import com.es.service.MainService;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
+import javax.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -25,14 +29,16 @@ public class TestController {
   @Autowired
   private JestClient jestClient;
 
-  @RequestMapping("/list")
-  public List getList() throws IOException {
+  @RequestMapping(value = "/list/haha/{id}/{method}", method = RequestMethod.DELETE)
+  public List getList(@PathVariable(name = "id", required = true) String id , @PathVariable(name = "method", required = true) String method) throws IOException {
 
-    GetTemplate gt = new GetTemplate.Builder("GET").build();
+    //GetTemplate gt = new GetTemplate.Builder("GET").build();
 
-    jestClient.execute(gt);
+    //jestClient.execute(gt);
 
-    return null;
+    System.out.println(id+ "  " + method);
+
+    return Collections.EMPTY_LIST;
 
   }
 

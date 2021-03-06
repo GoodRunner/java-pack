@@ -19,106 +19,78 @@ import org.openjdk.jol.info.ClassLayout;
  */
 public class Test {
 
-  public static User u = new User();
+  private static Test t = new Test();
 
-  static Thread t1;
+  private int i = 0;
+
+  private Test(){}
+
+  public static Test getInstence() {
+
+    return t;
+
+  }
+
+  public int getMyi(){
+    return i;
+  }
+
+  public void doSomeThing() {
+    i++;
+    Double v = Math.random() * 10;
+    try {
+      Thread.sleep(v.intValue());
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+  }
 
   public static void main(String[] args) {
+    Test instence = Test.getInstence();
 
-    SimpleDateFormat sdft = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+
+    Thread thread = new Thread(
+            () -> {
+              for (int i = 0; i < 100 ; i++) {
+                instence.doSomeThing();
+              }
+            }
+    );
+
+    Thread thread2 = new Thread(
+            () -> {
+              for (int i = 0; i < 100 ; i++) {
+                instence.doSomeThing();
+              }
+            }
+    );
+
+    Thread thread3 = new Thread(
+            () -> {
+              for (int i = 0; i < 100 ; i++) {
+                instence.doSomeThing();
+              }
+            }
+    );
+
+    for (int i = 0; i < 100; i++) {
+      instence.doSomeThing();
+    }
+
 
     try {
-      Date date = sdft.parse("2020-08-26 12:09:20");
-      System.out.println(date.after(new Date()));
-    } catch (ParseException e) {
+      thread.start();
+      thread.join();
+      thread2.start();
+      thread2.join();
+      thread3.start();
+      thread3.join();
+    } catch (InterruptedException e) {
       e.printStackTrace();
     }
 
-    //System.out.println(Integer.toHexString(u.hashCode()));
-//    System.out.println("还未启动  ---  无锁");
-//    System.out.println(ClassLayout.parseInstance(u).toPrintable());
-//    t1 = new Thread(){
-//      @Override
-//      public void run() {
-//        testLock();
-//      }
-//    };
-//    t1.setName("t1");
-//    t1.start();
+    System.out.println(instence.getMyi());
 
-    //AccountNormal account = new AccountNormal(1000);
-    //AccountSync account = new AccountSync(1000);
-//    AccountCas account = new AccountCas(1000);
-//    test(account);
-
-    Object lock = new Object();
-
-    int N = 10;
-
-    Thread[] threads = new Thread[N];
-
-    for (int i = 0; i < N; ++i) {
-
-      threads[i] = new Thread() {
-        @Override
-        public void run() {
-          synchronized (lock) {
-            System.out.println(Thread.currentThread().getName() + " get sync lock!");
-            try {
-              Thread.sleep(200);
-            } catch (InterruptedException e) {
-              e.printStackTrace();
-            }
-          }
-        }
-      };
-
-    }
-    // main 线程得到 lock
-    synchronized (lock) {
-      for (Thread thread : threads) {
-        thread.start();
-        try {
-          Thread.sleep(200);
-        } catch (InterruptedException e) {
-          e.printStackTrace();
-        }
-      }
-    }
-
-
-
-  }
-
-  //测试 存取钱
-  static void test(Account acount){
-
-    List<Thread> list = new ArrayList<>();
-
-    for (int i = 0; i < 500; i++) {
-      list.add(new Thread(){
-        @Override
-        public void run() {
-          acount.acquire(1);
-        }
-      });
-    }
-    //启动
-    for (Thread thread : list) {
-      thread.start();
-    }
-
-    System.out.println(acount.query());
-
-  }
-
-
-
-  public static void testLock () {
-    synchronized (u) {
-      System.out.println(Integer.toHexString(Thread.currentThread().hashCode()));
-      System.out.println("tName:" + Thread.currentThread().getName());
-      System.out.println(ClassLayout.parseInstance(u).toPrintable());
-    }
   }
 }

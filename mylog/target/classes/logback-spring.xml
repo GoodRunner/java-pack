@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="false">
+    <!-- Stop the annoying output INFO at start, -->
+    <!--   see https://www.mkyong.com/logging/how-to-stop-logback-status-info-at-the-start-of-every-log/ -->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+
+    <property name="log-dir" value="66666"/>
+    <property name="project-name" value="java-back-mylog"/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+                <pattern>%d{ISO8601}|%-5p|[%t]|%tid|%c{2}: %m%n</pattern>
+            </layout>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log-dir}/${project-name}.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${log-dir}/${project-name}-%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>2MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="console" />
+        <appender-ref ref="RollingFile" />
+    </root>
+
+    <logger name="org.springframework" level="INFO" additivity="false">
+        <appender-ref ref="console" />
+        <appender-ref ref="RollingFile" />
+    </logger>
+    <logger name="com.log" level="INFO" additivity="false">
+        <appender-ref ref="console" />
+        <appender-ref ref="RollingFile" />
+    </logger>
+
+</configuration>

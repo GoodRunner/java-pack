@@ -18,7 +18,9 @@
         <module>learn</module>
         <module>shardingjdbc</module>
         <module>netty</module>
-    </modules>
+        <module>designpattern</module>
+		<module>mylog</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -53,6 +55,13 @@
 			<artifactId>guava</artifactId>
 			<version>27.0-jre</version>
 		</dependency>
+
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>4.6.1</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
 		<!--<dependency>
 			<groupId>com.alibaba</groupId>

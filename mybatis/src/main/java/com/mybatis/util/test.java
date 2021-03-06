@@ -1,17 +1,31 @@
 package com.mybatis.util;
 
+import sun.awt.image.ImageWatched;
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnel;
 import com.google.common.hash.Funnels;
+import java.util.ArrayList;
 import java.util.BitSet;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.Stack;
+import java.util.TreeSet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
+import java.util.stream.Collectors;
 
 /**
  * @description:
@@ -39,8 +53,26 @@ public class test {
   }
 
   public static void main(String[] args) {
-   Integer s =  getTeachingChannelMapKey("1037");
-    System.out.println(s);
+
+    LinkedHashMap<String, Integer> myLinkMap = new LinkedHashMap<String, Integer>(8, 0.75f, true);
+
+    myLinkMap.put("9", 9);
+    myLinkMap.put("0", 0);
+    myLinkMap.put("2", 2);
+    myLinkMap.put("1", 1);
+
+    myLinkMap.get("2");
+
+    String str = "asdfghtyhj";
+
+    System.out.println(str);
+
+    Map<String, Object> myMap = Collections.synchronizedMap(new HashMap<String, Object>());
+
+    myMap.put("shu", "hsud");
+
+
+
   }
 
   private static Integer getTeachingChannelMapKey(String value){
