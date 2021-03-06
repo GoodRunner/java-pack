@@ -29,35 +29,35 @@ Building real-time streaming applications that transform or react to the streams
 
 **消息**  
 
-![record](/mq/img/record.png)  
+![record](./img/record.png)  
 
 **主题** 
-![topic](/mq/img/topic.png)
+![topic](./img/topic.png)
 
 **分区和副本**
-![topic](/mq/img/replica.png)
+![topic](./img/replica.png)
 
 **leader-follower** 
-![topic](/mq/img/leader-flower.png)
+![topic](./img/leader-flower.png)
 
 **broker** 
-![broker](/mq/img/broker.png)
+![broker](./img/broker.png)
 
 **生产者消费者** 
-![shengchanzhexiaofeizhe](/mq/img/pro-consu.png)
+![shengchanzhexiaofeizhe](./img/pro-consu.png)
 
 **isr** 
-![isr](/mq/img/isr.png)
+![isr](./img/isr.png)
 
 **zookeeper** 
-![zoo](/mq/img/zookeepere.png)
+![zoo](./img/zookeepere.png)
 
 **某一集群架构图** 
-![cluster](/mq/img/cluster.png)
+![cluster](./img/cluster.png)
 
 
 **结构目录**  
-![](/mq/img/stracture.png)  
+![](./img/stracture.png)  
 `bin`目录下存放一些可执行的命令文件: server相关命令、生产者相关命令、消费者相关命令等  
 `config`目录主要是存放一些配置文件,其中`server.properties`是主要配置文件 [详情请见-->](/mq/KAFKA_CONFIG.MD)  
 `logs`目录下面是存放server产生的`日志`和存放在kafka中的`数据`(生产者发送到kafka中的数据会做落盘处理保存一段时间)  
@@ -85,7 +85,7 @@ Kafka 严重依赖于 Zookeeper 集群，所有的 Broker 在启动的时候都�
 分区内有序
 
 **分区内副本对消费者的数据一致性**  
-![hw](/mq/img/hw&leo.png)  
+![hw](./img/hw&leo.png)  
 hw:高水位是对消费者可见的消息  
 leo:是leader最高写入的消息位置  
 当发生leader的更替的时候所有的副本需要从hw位置截掉，再从新从leader拉取数据。
